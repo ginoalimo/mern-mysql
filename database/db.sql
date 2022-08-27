@@ -1,3 +1,4 @@
+--Table tasks
 CREATE TABLE tasks (
     id int primary key auto_increment,
     title varchar(200) not null,
