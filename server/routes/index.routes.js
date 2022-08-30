@@ -4,7 +4,7 @@ import { pool } from "../db.js";
 const router = Router();
 
 router.get("/", (req, res) => {
-  res.send("Home");
+  res.send("Welcome to my Task database");
 })
 
 router.get("/ping", async (req, res) => {
