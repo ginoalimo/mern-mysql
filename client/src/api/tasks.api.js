@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const DEFAULT_URL = "http://localhost:4000"
+const DEFAULT_URL = "https://mern-mysql-git-master-razurs.vercel.app"
 
 export const getTasksRequest = async () => {
   try {
