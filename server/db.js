@@ -9,9 +9,11 @@ export const pool = createPool({
     // user: 'root',
     // password: 'faztpassword',
     // database: 'taskdb',
-    host: process.env.host,
-    user: process.env.user,
-    password: process.env.password,
-    database: process.env.database,
-    ssl: process.env.sll
+    host: process.env.HOST,
+    user: process.env.USER,
+    password: process.env.PASSWORD,
+    database: process.env.DATABASE,
+    ssl: {
+        rejectUnauthorized: false
+    }
 });
